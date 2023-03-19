@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #E0E1DD;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 50px;
+    margin-top: 150px;
+}
+
+footer {
+    background-color: #E0E1DD;
+    padding: 25px 50px;
+    margin-top: -100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #E0E1DD;
+    padding: 100px;
+}
+
+#headers {
+    color: #E0E1DD;
+margin-left: 100px;
+margin-bottom: 200px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 100%;
+    height: 1000px;
+    margin: 100px;
+    background-color: #284B63;
+}
+
+.home-title {
+grid-row: 1;
+font-family: Playfair Display, serif;
+font-size: 85px;
+color: #284B63;
+}
+
+#logo_link {
+ width: 400px;
+ height: 400px;
+}
+
+#top {
+    grid-row: 1;
+}
+
+
+nav a {
+   
+   
+    color: black;
+}
+
+.prej {
+    max-width: 500px;
+}
+
+.pros-card {
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.stars {
+    grid-column: 4;
+    grid-row: 1;
+}
