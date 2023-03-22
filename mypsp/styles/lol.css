@@ -1,76 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
+
 .card-img {
-    border: 5px solid #3C6E71;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #353535;
     width: 200px;
     height: 200px;
-}
-
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
+    border: 10px solid #E0E1DD;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 50px;
+    margin-top: 150px;
 }
 
 footer {
-    background-color: #778DA9;
-    padding: 25px 50px;
-    margin-top: 200px;
+    background-color: #E0E1DD;
+    padding: 25px 100px;
+    margin-top: -100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-
-h2 {
-    color: #3C6E71;
-    font-size: 25px;
+    width: 100%;
 }
 
 header {
-   display: grid;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #E0E1DD;
+    padding: 200px;
 }
 
-#top {
-    background-color: #284B63;
-
-}
-
-header a {
-    margin: 100px;
+#headers {
+   font-family: Cormorant Garamond, serif;
+   font-size: 20px;
+    color: #E0E1DD;
+   
 }
 
 .home-grid {
     display: grid;
-    grid-column: 2fr 2fr;
-    grid-row: 100px;
-    background-color: #353535;
-    padding-top: 100px;
-    margin-bottom: -200px;
-    padding-bottom: 50px;
+    grid-template-columns: 2fr 3fr;
+    width: 100%;
+    height: 1000px;
+    padding:100px;
+    padding-bottom: 300px;
+    background-color: #284B63;
 }
+
 
 .home-title {
-    font-family: 'Playfair Display';
+    grid-row: 1;
+    font-family: Playfair Display, serif;
     font-size: 85px;
-    margin-top: 50px;
-    text-align: left;
-    
-}
-
-.logo {
-    display: grid;
+    color: #284B63;
 }
 
 #logo_link {
-    display: grid;
-    align-content: right;
-    max-width: 200px;
-margin-left: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+#top {
+    grid-row: 1;
+}
+
+
+nav a {
+
+
+    color: black;
 }
 
 .prej {
@@ -80,17 +76,10 @@ margin-left: 50%;
 .pros-card {
     grid-column: 2;
     grid-row: 1;
+
 }
 
 .stars {
     grid-column: 4;
     grid-row: 1;
-}
-
-nav a {
-    justify-items: center;
-    text-align: center;
-    text-decoration: line;
-    padding: 35px;
-    color: #D9D9D9;
 }
