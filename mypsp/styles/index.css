@@ -43,33 +43,16 @@ footer {
 }
 
 
-
+.p {
+    border: solid;
+    color: #E0E1DD;
+}
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .home-title {
@@ -93,6 +76,8 @@ footer {
 #top {
     grid-row: 1;
 }
+
+
 
 
 ul {
@@ -125,6 +110,7 @@ ul {
     max-width: 250px;
     text-align: center;
     padding-bottom: 350px;
+
 }
 
 #navigation {
