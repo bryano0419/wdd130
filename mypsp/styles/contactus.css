@@ -54,7 +54,7 @@ p {
   color: white;
   font-family: Cormorant Garamond, serif;
   font-size: 25px;
-  grid-template-columns: 1 1 1;
+
  
 }
 
@@ -123,7 +123,6 @@ li a:hover {
 .top {
   color: white;
   font-family: Playfair Display, serif;
-  box-shadow: white;
   font-size: 30px;
   margin-left: 600px;
 }
