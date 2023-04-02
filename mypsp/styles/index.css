@@ -46,14 +46,22 @@ footer {
 .p {
     border: solid;
     color: #E0E1DD;
+    
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    color: #E0E1DD;
+    margin-left: 100px;
 }
 
+h3 {
+    color: #E0E1DD;
+    font-family: Playfair Display, serif;
+    margin-left: 500px;
+ font-size: 45px;
+}
 
 .home-title {
     grid-row: 1;
